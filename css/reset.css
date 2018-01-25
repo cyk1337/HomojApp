@@ -1,0 +1,68 @@
+/*公用样式*/
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+
+/*顶部导航*/
+.nav-bar{
+	/*position: relative;*/
+	background: #4bc1d2;
+}
+.mui-title{
+	color:#fff;
+}
+
+#back{
+	/*visibility: hidden;*/
+	/*display: none;
+	float: left;
+	padding-top: 9px;
+	padding-bottom: 10px;
+	margin-top: 1px;
+	padding-right: 1px;
+	width: 7%;*/
+	  display: none; 
+	  float: left;
+	  padding-top: 8px;
+	  padding-bottom: 10px;
+	  margin-top: 2px;
+	  padding-right: 1px;
+	  width: 25px;
+	  height: 42px;
+}
+.icon_settings:after{
+	display: block;
+	width: 25px;
+	height: 25px;
+	content: "";
+	background: url("../images/icon_settings.png") no-repeat 0 0;
+	background-size: 100%;
+}
+.nav_select{
+	position: absolute;
+	left:40%;
+	bottom:2%;
+	width: 20%;
+	list-style: none;
+}
+.nav_select li{
+	display: inline-block;
+	width:46%;
+	height: 3px;
+	background: #3c9aa8;
+}
+.nav_select li.active{
+	background:#95effc;
+}
+
+/*主内容样式*/
+.cust_card{
+	width: 100%;
+	padding: 2%;
+	border: 1px solid #ddd;
+	background: #fff;
+}

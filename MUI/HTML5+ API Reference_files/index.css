@@ -1,0 +1,217 @@
+a,abbr,address,article,aside,audio,b,blockquote,body,caption,cite,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{border:0;margin:0;outline:0;padding:0;}
+a{color:#d84c29;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+a:hover{opacity:1}
+
+body {
+    background-color:#F6F4F2;
+    font-family: Verdana, Arial, Helvetica , "Microsoft YaHei" , sans-serif;
+    font-size:14px;
+    color:#474747;
+    line-height: 30px;
+}
+
+body, div
+{border:0;margin:0;outline:0;padding:0;}
+
+#header {
+    background-color:#d52b02;
+    height:32px;
+    left:0px;
+    top:0px;
+    width:100%;
+    z-index:1;
+}
+
+#header h1{
+    margin-left: 20px;
+    text-align:left;
+}
+
+#header h1,
+#header h1 a{
+    color:#FFF;
+    font-size:18px;
+    font-weight:normal;
+    line-height:32px;
+}
+
+#sub {
+    background-color:#CBCBCB;
+    background:-webkit-gradient(linear,
+        left top,
+        left bottom,
+        color-stop(0.0, #F9F9F9),
+        color-stop(1.0, #CBCBCB)
+    );
+    background:-moz-linear-gradient(center bottom , #CBCBCB 0%, #F9F9F9 100%);
+    border-bottom:1px solid #919395;
+    left:0px;
+    position:fixed;
+    top:32px;
+    width:100%;
+    z-index:1;
+}
+
+#sub h1,
+#sub h1 a{
+    text-align:center;
+    color:#000;
+    font-size:18px;
+    font-weight:normal;
+    line-height:32px;
+    text-shadow:0px 1.5px 1.5px #FFF;
+}
+
+#aside {
+    background-color:#ECEAE7;
+    bottom:0px;
+    left:0px;
+    overflow:auto;
+    padding:20px 30px 0px 0px;
+    position:fixed;
+    text-align:right;
+    top:66px;
+    width:220px;
+    z-index:1;
+    border-right: 1px solid #b5b5b5;
+}
+
+#aside a{
+    color: #535353;
+}
+
+#aside a:hover{
+    color: #d84c29;
+}
+
+
+#aside h1 {
+    color:#000000;
+    font-size:18px;
+    padding:0px;
+    margin:30px 0px;
+    font-weight:normal;
+    text-shadow:#FFFFFF 0px 1px 0px;
+}
+
+#section {
+    bottom:0px;
+    left:280px;
+    position:fixed;
+    overflow:auto;
+    right:0px;
+    top:64px;
+    background-color: #f6f4f2;
+    margin-bottom: 20px;
+}
+
+#article {
+    max-width:750px;
+}
+
+#article h1 {
+    color: #000000;
+    border-bottom:2px solid;
+    font-size:2em;
+    font-weight:normal;
+    margin:2.0em 0px 1.3em 0px;
+    padding-bottom:0.6em;
+    text-shadow:0px 1.5px 1.5px #FFF;
+}
+
+#article h2 {
+    color:#242220;
+    font-size:1.4em;
+    font-weight:bold;
+    margin:1.3em 0px 0.8em 0px;
+    text-shadow:#FFFFFF 0px 1px 1px;
+}
+
+#article h3 {
+    font-size:1.1em;
+    font-weight:bold;
+    margin:0.8em 0px 0.5em 0px;
+    text-shadow:#FFFFFF 0px 1px 1px;
+}
+
+p {
+   color: #474747;
+   font-size: 1em;
+   margin:1em 0px;
+   text-shadow:#FFFFFF 0px 1px 1px;
+}
+
+#article ul {
+    margin-left:40px;
+}
+#article ul > li {
+    list-style:disc;
+    list-style-position:outside;
+}
+#article ul ul {
+    margin-bottom:0.5em;
+    margin-top:0.5em;
+}
+
+.type{
+    color:#0A0;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+em {
+    font-size: 0.8em;
+    color: #9D9D9D;
+}
+
+pre {
+    background:#F2F0EE;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    display:block;
+    line-height:110%;
+    padding:15px 20px;
+    white-space:pre-wrap;
+}
+pre code {
+    background:none;
+    border:none;
+    font-size:11px;
+    padding:0px;
+}
+
+code {
+    font-family: DejaVu , Monaco, "Courier New", "Courier";
+    font-size:100%;
+    font-style: normal;
+    padding:2px 4px;
+    white-space:pre-wrap;;
+}
+
+#logo {
+    margin: 2px .5em;
+    height:26px;
+    vertical-align: middle;
+}
+
+#guides {
+    max-width: 900px;
+}
+#guides ul {
+    float:left;
+    margin-left:40px;
+}
+#guides ul > li {
+    list-style:none;
+    list-style-type:none;
+    float:left;
+    width:200px;
+    height:120px;
+    margin:2em;
+}
+.catalog{
+    font-size:2em;
+    font-weight:normal;
+    margin:1em .5em 0 .5em;
+    border-bottom: 1px solid #919395;
+    padding-bottom:.5em;    
+}

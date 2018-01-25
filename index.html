@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav nav-bar" id="bar">
+		<img src="img/back.png" class="_back" id="back"/>
+		<a class="mui-icon mui-pull-left icon_settings"></a>
+		<h1 class="mui-title" id="bar_title">文章精选</h1>
+		<ul class="nav_select">
+			<li class="active"></li>
+			<li></li>
+		</ul>
+	</header>
+	<script type="text/javascript" charset="utf-8">
+      	mui.init({
+      		statusBarBackground: '#4bc1d2',
+      		subpages: [{
+					id: 'index_content_article',
+					url: 'index_content_article.html',
+					styles:{
+						top:"45px"
+					}
+			}]
+      	});
+    </script>
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>	  
+</body>
+</html>

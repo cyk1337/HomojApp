@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin:0;
+	
+}
+
+.bd_content{
+	background: #F8F8F8;
+	padding-bottom: 45px;
+}
+.content{
+	padding: 1px 5px;
+	margin: 5px 5px;
+	border-top: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+	position: relative;
+}
+.title{
+	color: #000000;
+	font-family:"微软雅黑";
+	font-size: 0.9em;
+	padding: 3px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.head{
+	color: #A4A4A4;
+	font-family:"微软雅黑";
+	font-size: 0.9em;
+	margin-bottom:0px;
+	margin-top: 0px;
+}
+
+.article1{
+	color: :#888888;
+	font-family:"微软雅黑";
+	font-size: 0.9em;
+	background-color: #F8F8F8;
+}
+.article{
+	color: :#888888;
+	font-family:"微软雅黑";
+	font-size: 0.9em;
+}
+
+.pic{
+	width: 100%;
+	margin: 4px 0;
+}
+.commment_right img{
+	float:right;
+	margin-top: 0.2em;
+	width: 7%;
+	margin-right: 3%;
+}
+/*.input_text:after{
+	display: inline-block;
+	content: "";
+	width: 1em;
+	height: 1em;
+	position: absolute;
+	background: url(../HomojApp/img/direct.png);
+}'*/
+.input_comment{
+	background: #F8F8F8;
+	
+}
+.input_comment input{
+	border-radius: 0px;
+	height: 25px;
+	width: 75%;
+	margin-top:0.2em ;
+	margin-left: 0.5em;
+	padding: 3px 2px;
+	/*float:right;*/
+}
+.input_text{
+
+	width: 50%;
+}

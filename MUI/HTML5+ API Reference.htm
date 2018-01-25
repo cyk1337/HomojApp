@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>HTML5+ API Reference</title>
+    <link rel="stylesheet" type="text/css" href="HTML5+%20API%20Reference_files/index.css">
+    <link rel="stylesheet" type="text/css" href="HTML5+%20API%20Reference_files/mobile.css" media="only screen and (max-device-width: 720px)">
+    <link rel="stylesheet" type="text/css" href="HTML5+%20API%20Reference_files/prettify.css">
+</head>
+<body>
+    <div id="header">
+        <h1><img id="logo" src="HTML5+%20API%20Reference_files/dcloud.png"><a href="http://www.dcloud.io/docs/api/index.shtml">HTML5+ API Reference</a></h1>
+        <div id="sub"><h1>Guides</h1></div>
+    </div>
+
+	<div id="aside">
+	    <h1>API Reference</h1>
+	    <ul>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/accelerometer.shtml">Accelerometer</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/audio.shtml">Audio</a></li>
+	        <!--li><a href="">Battery</a></li-->
+	        <!--li><a href="./zh_cn/cache.shtml">Cache</a></li-->
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/camera.shtml">Camera</a></li>
+	        <!--li><a href="">Clipboard</a></li-->
+	        <!--<li><a href="./zh_cn/console.shtml">Console</a></li>-->
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/contacts.shtml">Contacts</a></li>
+	        <!--li><a href="">Database</a></li-->
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/device.shtml">Device</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/downloader.shtml">Downloader</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/events.shtml">Events</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/gallery.shtml">Gallery</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/geolocation.shtml">Geolocation</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/io.shtml">IO</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/key.shtml">Key</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/messaging.shtml">Messaging</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/nativeUI.shtml">NativeUI</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/navigator.shtml">Navigator</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/orientation.shtml">Orientation</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/proximity.shtml">Proximity</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/splashscreen.shtml">Splashscreen</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/storage.shtml">Storage</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/ui.shtml">UI</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/uploader.shtml">Uploader</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/interface-orientation.shtml">Interface Orientation</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/runtime.shtml">Runtime</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/webview.shtml">Webview</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/xhr.shtml">XMLHttpRequest</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/zip.shtml">Zip</a></li>
+	    </ul>
+	    <h1>Plugins</h1>
+	    <ul>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/barcode.shtml">Barcode</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/maps.shtml">Maps</a></li>
+            <li><a href="http://www.dcloud.io/docs/api/zh_cn/oauth.shtml">OAuth</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/payment.shtml">Payment</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/push.shtml">Push</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/share.shtml">Share</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/speech.shtml">Speech</a></li>
+	        <li><a href="http://www.dcloud.io/docs/api/zh_cn/statistic.shtml">Statistic</a></li>
+	    </ul>
+	    <h1>Native.js</h1>
+	    <ul>
+	    	<li><a href="http://www.dcloud.io/docs/api/zh_cn/android.shtml">Android</a></li>
+	    	<li><a href="http://www.dcloud.io/docs/api/zh_cn/ios.shtml">iOS</a></li>
+	    </ul>
+	    <br>
+	</div>
+
+    <div id="section">
+        <div id="guides">
+        <ul>
+        <h1 class="catalog">Plus</h1>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/accelerometer.shtml">Accelerometer</a></h2>
+            <p>管理设备加速度传感器，用于获取设备加速度信息</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/audio.shtml">Audio</a></h2>
+            <p>管理设备的麦克风操作，用于音频的录制和播放</p>
+        </li>
+            <!--h2><a href="">Battery</a></h2>
+            <p>获取设备电池电量信息</p-->
+            <!--h2><a href="./zh_cn/cache.shtml">Cache</a></h2>
+            <p>管理应用的缓存数据</p-->
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/camera.shtml">Camera</a></h2>
+            <p>管理设备的摄像头，用于拍照、摄像操作</p>
+        </li>
+            <!--h2><a href="">Clipboard</a></h2>
+            <p>管理系统的粘贴板操作</p-->
+            <!--<h2><a href="./zh_cn/console.shtml">Console</a></h2>
+            <p>管理应用的输出日志，用于调试跟踪</p>-->
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/contacts.shtml">Contact</a></h2>
+            <p>管理系统通讯录，如对系统通讯录进行增、删、改、查等操作</p>
+        </li>
+            <!--h2><a href="">Database</a></h2>
+            <p>管理应用的本地数据库操作</p-->
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/device.shtml">Device</a></h2>
+            <p>管理设备信息，用于获取手机设备信息、系统信息、网络信息等</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/downloader.shtml">Downloader</a></h2>
+            <p>管理文件下载，用于从网络下载各种文件，可支持跨域访问操作</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/events.shtml">Events</a></h2>
+            <p>应用的事件管理，如程序前后台切换、网络变化等事件</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/gallery.shtml">Gallery</a></h2>
+            <p>管理系统相册，如从相册中选择图片或视频文件、保存图片或视频文件到相册等</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/geolocation.shtml">Geolocation</a></h2>
+            <p>管理设备位置信息，用于获取地理位置信息，如经度、纬度等GPS信息</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/io.shtml">IO</a></h2>
+            <p>管理本地文件系统，用于对文件系统的目录浏览、文件的读取、文件的写入等操作</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/messaging.shtml">Messaging</a></h2>
+            <p>管管理设备通讯功能，如发送短信、彩信、邮件等</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/orientation.shtml">Orientation</a></h2>
+            <p>管理设备方向传感器，用于获取设备方向信息，如alpha、beta、gamma等信息</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/proximity.shtml">Proximity</a></h2>
+            <p>管理设备距离传感器，获取当前设备的接近距离信息</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/splashscreen.shtml">Splashscreen</a></h2>
+            <p>管理应用的启动界面</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/storage.shtml">Storage</a></h2>
+            <p>管理应用本地数据，用于应用数据的保存和读取</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/ui.shtml">UI</a></h2>
+            <p>管理应用的原生界面，如原生控件、Webview窗口对象等</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/uploader.shtml">Uploader</a></h2>
+            <p>管理网络上传，用于从本地上传各种文件到网络，支持跨域访问操作</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/interface-orientation.shtml">Interface Orientation</a></h2>
+            <p>获取应用的横竖屏状态信息，监听横竖屏转换事件</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/runtime.shtml">Runtime</a></h2>
+            <p>管理运行环境，如获取当前运行环境信息、与其它程序进行通讯等</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/xhr.shtml">XMLHttpRequest</a></h2>
+            <p>管理应用的网络请求，支持跨域网络连接</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/zip.shtml">Zip</a></h2>
+            <p>管理文件的压缩和解压</p>
+        </li>
+        </ul>
+        <br>
+        <ul>
+        <h1 class="catalog">Plugins</h1>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/barcode.shtml">Barcode</a></h2>
+            <p>二维码扫描，调用设备的摄像头进行二维码扫描识别</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/maps.shtml">Maps</a></h2>
+            <p>管理地图控件，用于在web页面中显示地图控件</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/oauth.shtml">OAuth</a></h2>
+            <p>管理第三方平台登录，用于在web页面调用第三方平台登录</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/payment.shtml">Payment</a></h2>
+            <p>管理支付功能，用于提供网页安全支付能力，支持通过Web接口进行支付操作</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/push.shtml">Push</a></h2>
+            <p>管理推送消息功能，支持实时在线、离线的消息推送</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/share.shtml">Share</a></h2>
+            <p>管理客户端的社交分享功能，提供调用终端社交软件的分享能力</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/speech.shtml">Speech</a></h2>
+            <p>管理语音输入功能，提供语音识别功能，如通过麦克风设备进行语音输入内容</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/statistic.shtml">Statistic</a></h2>
+            <p>管理统计功能，用于提供应用内统计的能力，支持统计和分析用户属性和用户行为数据</p>
+        </li>
+        </ul>
+        <br>
+        <ul>
+        <h1 class="catalog">Native.js</h1>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/android.shtml">Android</a></h2>
+            <p>通过JS语法直接调用Native Java接口通道，可调用几乎所有的系统原生Java API</p>
+        </li>
+        <li>
+            <h2><a href="http://www.dcloud.io/docs/api/zh_cn/ios.shtml">iOS</a></h2>
+            <p>通过JS语法直接调用Native OC接口通道，可调用几乎所有的系统Objective-C API</p>
+        </li>
+        </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="HTML5+%20API%20Reference_files/prettify.js"></script>
+
+</body></html>

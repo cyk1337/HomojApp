@@ -1,0 +1,258 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	background: #F8F8F8;
+	
+}
+
+#back{
+	position: absolute;
+	z-index: 1;
+	}
+
+
+.bd1{
+	background-color: #F8F8F8;
+	padding-bottom: 46px;
+}
+.content_nav{
+	margin: 6px 4px;
+	padding-left: 0.2em;
+	list-style: none;
+}
+.content_nav li{
+	display: inline-block;
+	padding-right: 3px;
+	padding-left: 3px;
+	border-left: 1.5px solid #848484;
+}
+.content_nav li a{
+	font-family: "微软雅黑";
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#848484;
+	padding: 5px 2.5px;
+	line-height: 7px;
+}
+.content_nav li.active{
+	border-left: none;
+}
+.content_nav li.active a{
+	color:#000;
+	font-weight: bolder;
+}
+.pic_full{
+	position: relative;
+	margin-bottom: 0px;
+}
+.pic_full img{
+	/*padding: 10px;*/
+	/*margin: 0 auto;*/
+	margin: 0px;
+	width: 98%;
+	
+}
+
+.font_title{
+	font-family: "微软雅黑";
+	font-size: 0.6em;
+	color: #000000;
+	/*margin: 0.3em;*/
+	line-height: 1.5em;
+	margin: 0.1px;
+	padding-right:1.4em;
+	
+}
+
+.pic_title{
+	margin: 0;;
+	font-family: "微软雅黑";
+	font-size: 0.7em;
+	color: #FFFFFF;
+	line-height: 2em;
+	background-color: #000000;
+	opacity: 0.7;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	text-indent: 2%;
+	margin: 0;
+	padding: 3px;
+}
+
+.font_head{
+	font-family: "微软雅黑";
+	font-size: 0.6em;
+	color: #a4a4a4;
+	margin-bottom: 0em;
+	width: 100%;
+	padding: 1px 0;
+}
+.font_comment{
+/*	margin: 1.5em auto;*/
+	/*line-height: 2em;*/
+	font-size: 1.1em;
+	font-family: "微软雅黑";
+	border-top: 1px #DDDDDD solid;
+	padding-top: 11px;
+	padding-bottom: 7px;
+	line-height: 15px;
+	clear:both;
+}
+.font_comment *{
+
+	vertical-align: middle;
+	/*line-height: 40px;
+	font-size: 35px;
+	font-family: "微软雅黑";*/
+}
+.font_comment img{
+	/*margin: 0 auto;*/
+	width: 10%;
+}
+.commment_right{
+	float: right;
+	margin-right: 1em;
+}
+.pic_both{
+	margin: 0.3em 0.1em;
+}
+.pic_both img{
+	/*margin: 1%;*/
+	width: 47.5%;
+}
+.first_img{
+	margin-right: 2.5%;
+}
+.font_article{
+	margin: 0.3em;
+	font-family: "微软雅黑";
+	font-size: 0.5em;
+	color: #6f6e6e;
+	line-height: 1.6em;
+	padding: 2px 0;
+}
+.font_article_2{
+	margin: 0.3em;
+	font-family: "微软雅黑";
+	font-size: 0.5em;
+	color: #6f6e6e;
+	line-height: 1.6em;
+	padding: 16px 0;
+}
+.pic_half img{
+	float: left;
+	width: 49%;
+	margin-right:2%;
+	padding: 16px 0;
+}
+.input_comment{
+	background: #FFFFFF;
+	opacity: 0.75;
+}
+.input_comment input{
+	margin-top:5% ;
+	width: 40%;
+}
+.input_text{
+	width: 50%;
+}
+.card{
+	margin-top: 7px;
+	position: relative;
+	/*margin-top: 0px;*/
+	border-bottom: 0.1em;
+	padding: 3px 2%;
+	background: #FFFFFF;
+	border-top: 1px #DDDDDD solid;
+	border-bottom: 1px #DDDDDD solid;
+	
+}
+.user_name:before,.share:before,.comment_number:before{
+	display: inline-block;
+	content: "";
+	width: 1.5em;
+	height: 2em;
+	line-height: 2em;
+	position: absolute;
+	bottom: -6px;
+}
+.ff{
+	padding-left: 2.5em;
+}
+.font_comment *{
+	font-family: "微软雅黑";
+	font-size: 0.8em;
+	color: #000000;
+	font-family: "微软雅黑";
+	vertical-align: middle;
+}
+.user_name:before{
+	background: url(../img/user.png) 0 50% no-repeat;
+	background-size: 100%;
+}
+
+.comment_number:before{
+	background: url(../img/bubble.png) 0 50% no-repeat;
+	background-size: 100%;
+}
+
+.user_name{
+	float: left;
+	display: inline-block;
+	position: absolute;
+}
+
+.comment_number{
+	padding-right: 3%;
+	margin-right: 3%;
+	border-right: solid #000000 1px;
+}
+.share:before{
+	background: url(../img/share.png) 0 50% no-repeat;
+	background-size: 100%;
+}
+.share,.comment_number{
+	float: right;
+	position: relative;
+}
+
+.cl{
+	clear: both;
+}
+/*.mid1{
+	position: absolute;
+	top:0px;
+	left: 0px;
+}*/
+.main_content_title{
+	position: absolute;
+	top:4px;
+	right: 0px;
+	/*width: 1em;*/
+	/*height: 2em;*/
+	padding:5px 4px;
+	background: #4BC1D2;
+	font-family: "微软雅黑";
+	font-size: 1em;
+	color: #fff;
+	line-height: 1.4em;
+}
+/*
+.main_content_title2{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	width: 1em;
+	/*height: 2em;*/
+	font-family: "微软雅黑";
+	padding:10px 4px;
+	background: #4BC1D2;
+	line-height: 1.2em;
+	font-size: 1em;
+	color: #fff;
+}*/*/
